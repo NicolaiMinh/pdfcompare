@@ -15,10 +15,10 @@ How to run:
 
 Command:
 
-``
+```
 chmod +x compare_pdfs.sh
 ./compare_pdfs.sh folder1 folder2
-``
+```
 
 # Compress PDF using shrinkpdf
 
@@ -34,7 +34,7 @@ How to run:
 
 Command:
 
-``
+```
 chmod +x shrinkpdf.sh
 ./shrinkpdf.sh ./${folderPath}${fileName}  ./${folderPath}compress
-``
+```
