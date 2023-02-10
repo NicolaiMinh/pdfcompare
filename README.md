@@ -16,5 +16,25 @@ How to run:
 Command:
 
 ``
+chmod +x compare_pdfs.sh
 ./compare_pdfs.sh folder1 folder2
+``
+
+# Compress PDF using shrinkpdf
+
+Mac install:
+
+```
+brew install ghostscript
+```
+How to run:
+1. Prepare file PDF to compress.
+2. Export folder compress contain file reduce size.
+
+
+Command:
+
+``
+chmod +x shrinkpdf.sh
+./shrinkpdf.sh ./${folderPath}${fileName}  ./${folderPath}compress
 ``
